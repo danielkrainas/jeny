@@ -1,0 +1,22 @@
+{
+  "name": "jeny",
+  "version": "0.0.1",
+  "description": "Project component generation utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "jeny": "bin/jeny.js"
+  },
+  "author": {
+    "name": "Daniel Krainas",
+    "email": "me@danielkrainas.com"
+  },
+  "preferGlobal": true,
+  "license": "Unlicense",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "swig": "^1.4.2"
+  }
+}
